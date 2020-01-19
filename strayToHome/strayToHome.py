@@ -443,7 +443,7 @@ def endingScreen():
 
     title = pygame.image.load('title.gif')
     titleImage = title.get_rect()
-    titleImage.move_ip(100, 20)
+    titleImage.move_ip(300, 150)
     screen.blit(title, titleImage)
 
     pygame.display.flip()
